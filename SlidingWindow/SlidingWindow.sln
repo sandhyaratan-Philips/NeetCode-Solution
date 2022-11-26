@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindowWithFixFrame", "SlidingWindowWithFixFrame\SlidingWindowWithFixFrame.csproj", "{8481FC80-AA02-47E8-96E1-E5AA570D3EFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindowWithVariableFrameSize", "SlidingWindowWithVariableFrameSize\SlidingWindowWithVariableFrameSize.csproj", "{E230C54D-F4B3-4B82-B4F2-8944FE82513C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindowWithVariableFrame", "SlidingWindowWithVariableFrame\SlidingWindowWithVariableFrame.csproj", "{4917A458-5B5D-4F10-B53C-CAE926B2FBE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumIndexApointerCanReach", "MaximumIndexApointerCanReach\MaximumIndexApointerCanReach.csproj", "{B904F1E0-B4BA-4834-A3FD-5D2EEF4BE32C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StableMatchProblem", "StableMatchProblem\StableMatchProblem.csproj", "{6C6062D7-6FF8-416E-B1E4-FDE42F6A7CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8481FC80-AA02-47E8-96E1-E5AA570D3EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8481FC80-AA02-47E8-96E1-E5AA570D3EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8481FC80-AA02-47E8-96E1-E5AA570D3EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8481FC80-AA02-47E8-96E1-E5AA570D3EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E230C54D-F4B3-4B82-B4F2-8944FE82513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E230C54D-F4B3-4B82-B4F2-8944FE82513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E230C54D-F4B3-4B82-B4F2-8944FE82513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E230C54D-F4B3-4B82-B4F2-8944FE82513C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4917A458-5B5D-4F10-B53C-CAE926B2FBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4917A458-5B5D-4F10-B53C-CAE926B2FBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4917A458-5B5D-4F10-B53C-CAE926B2FBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4917A458-5B5D-4F10-B53C-CAE926B2FBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B904F1E0-B4BA-4834-A3FD-5D2EEF4BE32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B904F1E0-B4BA-4834-A3FD-5D2EEF4BE32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B904F1E0-B4BA-4834-A3FD-5D2EEF4BE32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B904F1E0-B4BA-4834-A3FD-5D2EEF4BE32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6062D7-6FF8-416E-B1E4-FDE42F6A7CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6062D7-6FF8-416E-B1E4-FDE42F6A7CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6062D7-6FF8-416E-B1E4-FDE42F6A7CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6062D7-6FF8-416E-B1E4-FDE42F6A7CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D21823F3-2320-4355-A778-D660A566BE6D}
+	EndGlobalSection
+EndGlobal
