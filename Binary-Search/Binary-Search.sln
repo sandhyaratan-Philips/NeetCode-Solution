@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{E9AA1E73-BA3B-43F7-86DD-9DC10ADA9C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{E9AA1E73-BA3B-43F7-86DD-9DC10ADA9C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search_a_2DMatrix", "Search_a_2DMatrix\Search_a_2DMatrix.csproj", "{0BA45C07-B648-439C-85C2-89E4C0C48DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KokoEatingBananas", "KokoEatingBananas\KokoEatingBananas.csproj", "{D25D04B2-A125-48E2-90FC-8B041C9A13D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchinRotatedSortedArray", "SearchinRotatedSortedArray\SearchinRotatedSortedArray.csproj", "{473B8B5F-94B4-457A-BC7B-3FED7AE4975A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMinimuminRotatedSortedArray", "FindMinimuminRotatedSortedArray\FindMinimuminRotatedSortedArray.csproj", "{CEAB5B2E-4E85-428E-948B-45AE47BCFB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBasedKey-ValueStore", "TimeBasedKey-ValueStore\TimeBasedKey-ValueStore.csproj", "{58040C3F-3FBB-4C0C-A346-F1F8A3E814A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianofTwoSortedArrays", "MedianofTwoSortedArrays\MedianofTwoSortedArrays.csproj", "{91F14E55-3900-4CB6-A685-9A8AE0E0B77B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{E9AA1E73-BA3B-43F7-86DD-9DC10ADA9C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9AA1E73-BA3B-43F7-86DD-9DC10ADA9C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9AA1E73-BA3B-43F7-86DD-9DC10ADA9C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA45C07-B648-439C-85C2-89E4C0C48DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA45C07-B648-439C-85C2-89E4C0C48DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA45C07-B648-439C-85C2-89E4C0C48DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA45C07-B648-439C-85C2-89E4C0C48DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25D04B2-A125-48E2-90FC-8B041C9A13D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25D04B2-A125-48E2-90FC-8B041C9A13D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25D04B2-A125-48E2-90FC-8B041C9A13D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25D04B2-A125-48E2-90FC-8B041C9A13D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473B8B5F-94B4-457A-BC7B-3FED7AE4975A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473B8B5F-94B4-457A-BC7B-3FED7AE4975A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473B8B5F-94B4-457A-BC7B-3FED7AE4975A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473B8B5F-94B4-457A-BC7B-3FED7AE4975A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEAB5B2E-4E85-428E-948B-45AE47BCFB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAB5B2E-4E85-428E-948B-45AE47BCFB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAB5B2E-4E85-428E-948B-45AE47BCFB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAB5B2E-4E85-428E-948B-45AE47BCFB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58040C3F-3FBB-4C0C-A346-F1F8A3E814A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58040C3F-3FBB-4C0C-A346-F1F8A3E814A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58040C3F-3FBB-4C0C-A346-F1F8A3E814A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58040C3F-3FBB-4C0C-A346-F1F8A3E814A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F14E55-3900-4CB6-A685-9A8AE0E0B77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F14E55-3900-4CB6-A685-9A8AE0E0B77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F14E55-3900-4CB6-A685-9A8AE0E0B77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F14E55-3900-4CB6-A685-9A8AE0E0B77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
