@@ -6,7 +6,7 @@ namespace Prim_s
      *  Initialize the minimum spanning tree with a vertex chosen at random.
         Find all the edges that connect the tree to new vertices, find the minimum and add it to the tree
         Keep repeating step 2 until we get a minimum spanning tree
-
+    O(E log V).
      */
     class Program
     {
