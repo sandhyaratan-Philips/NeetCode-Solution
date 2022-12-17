@@ -380,9 +380,6 @@ namespace BinomialHeap
             obj.print();
             Console.WriteLine("Min: " + obj.extractMin());
             obj.print();
-
-
-            Console.WriteLine("Hello World!");
         }
     }
 }
