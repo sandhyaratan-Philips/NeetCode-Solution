@@ -63,19 +63,12 @@ namespace add_two_numbers
         {
             Helper helper = new Helper();
 
-            helper.AddFirst(9);
-            helper.AddFirst(9);
-            helper.AddFirst(9);
-            helper.AddFirst(9);
-            helper.AddFirst(9);
-            helper.AddFirst(9);
-            helper.AddFirst(9);
+            helper.AddLast(9);
+            helper.AddLast(9);
+            helper.AddLast(1);
 
             Helper helper1 = new Helper();
-            helper1.AddFirst(9);
-            helper1.AddFirst(9);
-            helper1.AddFirst(9);
-            helper1.AddFirst(9);
+            helper1.AddLast(1);
 
             Program program = new Program();
 
