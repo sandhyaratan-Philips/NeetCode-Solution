@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci_heap", "Fibonacci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinomialHeap", "BinomialHeap\BinomialHeap.csproj", "{AB9029C9-5513-4657-BFE0-67F195B4345D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra_PriorityQueue", "Dijkstra_PriorityQueue\Dijkstra_PriorityQueue.csproj", "{1C8C8008-A9A9-4454-A9FE-D38D7B08EADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{AB9029C9-5513-4657-BFE0-67F195B4345D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9029C9-5513-4657-BFE0-67F195B4345D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9029C9-5513-4657-BFE0-67F195B4345D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8C8008-A9A9-4454-A9FE-D38D7B08EADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8C8008-A9A9-4454-A9FE-D38D7B08EADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8C8008-A9A9-4454-A9FE-D38D7B08EADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8C8008-A9A9-4454-A9FE-D38D7B08EADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
