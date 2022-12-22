@@ -3,19 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-linked-list", "reverse-linked-list\reverse-linked-list.csproj", "{FDC91304-8E90-44DD-A5FE-380002495676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reverse-linked-list", "reverse-linked-list\reverse-linked-list.csproj", "{FDC91304-8E90-44DD-A5FE-380002495676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merge-two-sorted-lists", "merge-two-sorted-lists\merge-two-sorted-lists.csproj", "{7AD5F599-C9EF-48E3-B975-9697FB40F972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "merge-two-sorted-lists", "merge-two-sorted-lists\merge-two-sorted-lists.csproj", "{7AD5F599-C9EF-48E3-B975-9697FB40F972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{55F3FAA3-E95B-4326-B7DD-9327527329F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "common", "common\common.csproj", "{55F3FAA3-E95B-4326-B7DD-9327527329F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reorder-list", "reorder-list\reorder-list.csproj", "{5C98D5F8-0CF4-4A2C-84A2-BB33672BA2BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reorder-list", "reorder-list\reorder-list.csproj", "{5C98D5F8-0CF4-4A2C-84A2-BB33672BA2BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remove-nth-node-from-end-of-list", "remove-nth-node-from-end-of-list\remove-nth-node-from-end-of-list.csproj", "{620D2033-0E51-4931-B76B-DD9A74411B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "remove-nth-node-from-end-of-list", "remove-nth-node-from-end-of-list\remove-nth-node-from-end-of-list.csproj", "{620D2033-0E51-4931-B76B-DD9A74411B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "copy-list-with-random-pointer", "copy-list-with-random-pointer\copy-list-with-random-pointer.csproj", "{FAF7B847-F57C-4ED6-A5F7-AF6914798AE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "copy-list-with-random-pointer", "copy-list-with-random-pointer\copy-list-with-random-pointer.csproj", "{FAF7B847-F57C-4ED6-A5F7-AF6914798AE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "add-two-numbers", "add-two-numbers\add-two-numbers.csproj", "{FA1706EA-CA80-4E55-A8A6-B54CF19469FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "add-two-numbers", "add-two-numbers\add-two-numbers.csproj", "{FA1706EA-CA80-4E55-A8A6-B54CF19469FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linked-list-cycle", "linked-list-cycle\linked-list-cycle.csproj", "{D1EC266C-8CA6-4109-A16D-AAC105DE55AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linked-list-cycle-constantMem", "linked-list-cycle-constantMem\linked-list-cycle-constantMem.csproj", "{C2DD0BA6-2A24-488B-8274-0AB4DEA5C00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-the-duplicate-number", "find-the-duplicate-number\find-the-duplicate-number.csproj", "{E6CC409F-51AA-4FCC-A69E-0C56E4AAEA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lru-cache", "lru-cache\lru-cache.csproj", "{B1CE3E2D-B58D-4031-8793-FD7827992C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merge-k-sorted-lists", "merge-k-sorted-lists\merge-k-sorted-lists.csproj", "{B7BA8729-C3E9-42DA-B4C8-5A3E70E00C8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-nodes-in-k-group", "reverse-nodes-in-k-group\reverse-nodes-in-k-group.csproj", "{3B39FB7C-5E70-4C8C-BF64-2BE4D8FF3313}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{FA1706EA-CA80-4E55-A8A6-B54CF19469FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1706EA-CA80-4E55-A8A6-B54CF19469FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1706EA-CA80-4E55-A8A6-B54CF19469FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EC266C-8CA6-4109-A16D-AAC105DE55AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EC266C-8CA6-4109-A16D-AAC105DE55AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EC266C-8CA6-4109-A16D-AAC105DE55AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EC266C-8CA6-4109-A16D-AAC105DE55AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DD0BA6-2A24-488B-8274-0AB4DEA5C00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DD0BA6-2A24-488B-8274-0AB4DEA5C00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DD0BA6-2A24-488B-8274-0AB4DEA5C00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DD0BA6-2A24-488B-8274-0AB4DEA5C00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CC409F-51AA-4FCC-A69E-0C56E4AAEA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CC409F-51AA-4FCC-A69E-0C56E4AAEA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CC409F-51AA-4FCC-A69E-0C56E4AAEA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CC409F-51AA-4FCC-A69E-0C56E4AAEA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CE3E2D-B58D-4031-8793-FD7827992C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CE3E2D-B58D-4031-8793-FD7827992C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CE3E2D-B58D-4031-8793-FD7827992C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CE3E2D-B58D-4031-8793-FD7827992C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BA8729-C3E9-42DA-B4C8-5A3E70E00C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BA8729-C3E9-42DA-B4C8-5A3E70E00C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BA8729-C3E9-42DA-B4C8-5A3E70E00C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BA8729-C3E9-42DA-B4C8-5A3E70E00C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B39FB7C-5E70-4C8C-BF64-2BE4D8FF3313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B39FB7C-5E70-4C8C-BF64-2BE4D8FF3313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B39FB7C-5E70-4C8C-BF64-2BE4D8FF3313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B39FB7C-5E70-4C8C-BF64-2BE4D8FF3313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
