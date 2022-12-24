@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{8B467147-B08D-4EEE-A125-FBAE1F18C0F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree-Traversal", "Tree-Traversal\Tree-Traversal.csproj", "{B01C2AD9-FC81-4EAF-A1AA-2F3B63422BC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullBinaryTree", "FullBinaryTree\FullBinaryTree.csproj", "{47238B41-376F-4ADD-8C78-670D8D037DB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "perfect-binary-tree", "perfect-binary-tree\perfect-binary-tree.csproj", "{9BFA370C-F940-40DE-8716-B13F870FFE62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "complete-binary-tree", "complete-binary-tree\complete-binary-tree.csproj", "{5E730FA5-D6DF-4A81-8284-B64B9C674E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "balanced-binary-tree", "balanced-binary-tree\balanced-binary-tree.csproj", "{CF230EC8-2E67-4B3C-9204-C1DF903FF177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B467147-B08D-4EEE-A125-FBAE1F18C0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B467147-B08D-4EEE-A125-FBAE1F18C0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B467147-B08D-4EEE-A125-FBAE1F18C0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B467147-B08D-4EEE-A125-FBAE1F18C0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01C2AD9-FC81-4EAF-A1AA-2F3B63422BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01C2AD9-FC81-4EAF-A1AA-2F3B63422BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01C2AD9-FC81-4EAF-A1AA-2F3B63422BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01C2AD9-FC81-4EAF-A1AA-2F3B63422BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47238B41-376F-4ADD-8C78-670D8D037DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47238B41-376F-4ADD-8C78-670D8D037DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47238B41-376F-4ADD-8C78-670D8D037DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47238B41-376F-4ADD-8C78-670D8D037DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFA370C-F940-40DE-8716-B13F870FFE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFA370C-F940-40DE-8716-B13F870FFE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFA370C-F940-40DE-8716-B13F870FFE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFA370C-F940-40DE-8716-B13F870FFE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E730FA5-D6DF-4A81-8284-B64B9C674E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E730FA5-D6DF-4A81-8284-B64B9C674E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E730FA5-D6DF-4A81-8284-B64B9C674E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E730FA5-D6DF-4A81-8284-B64B9C674E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF230EC8-2E67-4B3C-9204-C1DF903FF177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF230EC8-2E67-4B3C-9204-C1DF903FF177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF230EC8-2E67-4B3C-9204-C1DF903FF177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF230EC8-2E67-4B3C-9204-C1DF903FF177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91BD0607-9464-496C-9FFC-F351561C4D2B}
+	EndGlobalSection
+EndGlobal
