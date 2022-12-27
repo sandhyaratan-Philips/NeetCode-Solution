@@ -23,13 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "splay-tree", "splay-tree\sp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "red-black-tree", "red-black-tree\red-black-tree.csproj", "{946DCF88-4239-44AF-BF13-21F7CA0549B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fenwick_tree", "fenwick_tree\fenwick_tree.csproj", "{BF918F45-E65C-4401-992C-4D21DA4FF5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fenwick_tree", "fenwick_tree\fenwick_tree.csproj", "{BF918F45-E65C-4401-992C-4D21DA4FF5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTree", "SegmentTree\SegmentTree.csproj", "{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegmentTree", "SegmentTree\SegmentTree.csproj", "{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "same_tree", "same_tree\same_tree.csproj", "{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "same_tree", "same_tree\same_tree.csproj", "{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "path_sum", "path_sum\path_sum.csproj", "{D94B0A91-17E8-4542-A299-9B6869FE9A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "path_sum", "path_sum\path_sum.csproj", "{D94B0A91-17E8-4542-A299-9B6869FE9A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maximum-depth-or-height-of-a-tree", "maximum-depth-or-height-of-a-tree\maximum-depth-or-height-of-a-tree.csproj", "{2FDC00D5-1899-47C2-BE2E-4FCCCCCEA30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre", "lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre\lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre.csproj", "{6CED3D5A-B23D-4942-9085-CBA98375AFB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDC00D5-1899-47C2-BE2E-4FCCCCCEA30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDC00D5-1899-47C2-BE2E-4FCCCCCEA30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDC00D5-1899-47C2-BE2E-4FCCCCCEA30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDC00D5-1899-47C2-BE2E-4FCCCCCEA30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
