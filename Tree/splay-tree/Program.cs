@@ -165,6 +165,113 @@ namespace splay_tree
             x.parent = y;
         }
 
+        public void delete(int key)
+        {
+            if (root == null)
+            {
+                return;
+            }
+
+            search(key);
+            delete(key, root);
+        }
+
+        private void delete(int key, SplayTreeNode node)
+        {
+            if (key.CompareTo(node.key) < 0)
+            {
+                if (node.left != null)
+                {
+                    delete(key, node.left);
+                }
+                if (node.left.isDeleted)
+                {
+                    node.left = null;
+                }
+                return;
+            }
+
+            if (key.CompareTo(node.key) > 0)
+            {
+                if (node.right != null)
+                {
+                    delete(key, node.right);
+                }
+                if (node.right.isDeleted)
+                {
+                    node.right = null;
+                }
+                return;
+            }
+
+            delete(node);
+        }
+
+        private void delete(SplayTreeNode node)
+        {
+            if (node.left == null || node.right == null)
+            {
+                node.isDeleted = true;
+                return;
+            }
+
+            if (node.left != null && node.right == null)
+            {
+                node.key = (node.left.key);
+                if (node.left.right != null)
+                {
+                    node.right = (node.left.right);
+                }
+                if (node.left.left != null)
+                {
+                    node.left = (node.left.left);
+                }
+                else
+                {
+                    node.left = (null);
+                }
+                return;
+            }
+
+            if (node.right != null && node.left == null)
+            {
+                node.key = (node.right.key);
+                if (node.right.left != null)
+                {
+                    node.left = (node.left.left);
+                }
+                if (node.right.right != null)
+                {
+                    node.right = (node.left.right);
+                }
+                else
+                {
+                    node.right = (null);
+                }
+                return;
+            }
+
+            // both exist, replace with minimum from right sub-tree
+            int min = findMin(node.right);
+            node.key = (min);
+        }
+
+        private int findMin(SplayTreeNode node)
+        {
+            if (node.left == null)
+            {
+                node.isDeleted = true;
+                return node.key;
+            }
+
+            int min = findMin(node.left);
+            if (node.left.isDeleted)
+            {
+                node.left = null;
+            }
+            return min;
+        }
+
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -174,6 +281,8 @@ namespace splay_tree
             program.insert(1);
 
             program.search(2);
+
+            program.delete(3);
 
 
             Console.WriteLine(program.root);
