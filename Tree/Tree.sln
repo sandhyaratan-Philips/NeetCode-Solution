@@ -13,15 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "perfect-binary-tree", "perf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "complete-binary-tree", "complete-binary-tree\complete-binary-tree.csproj", "{5E730FA5-D6DF-4A81-8284-B64B9C674E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "balanced-binary-tree", "balanced-binary-tree\balanced-binary-tree.csproj", "{CF230EC8-2E67-4B3C-9204-C1DF903FF177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balanced-binary-tree", "balanced-binary-tree\balanced-binary-tree.csproj", "{CF230EC8-2E67-4B3C-9204-C1DF903FF177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "binary-search-tree", "binary-search-tree\binary-search-tree.csproj", "{CEE45702-95D1-4E19-B31B-EE3EDC43898C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "binary-search-tree", "binary-search-tree\binary-search-tree.csproj", "{CEE45702-95D1-4E19-B31B-EE3EDC43898C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avl-tree", "avl-tree\avl-tree.csproj", "{2BD0386F-A63F-4DEF-BB91-17333838A8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "avl-tree", "avl-tree\avl-tree.csproj", "{2BD0386F-A63F-4DEF-BB91-17333838A8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "splay-tree", "splay-tree\splay-tree.csproj", "{AC3FBF37-A36E-4D5D-A33C-AF6EC8DD7B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "splay-tree", "splay-tree\splay-tree.csproj", "{AC3FBF37-A36E-4D5D-A33C-AF6EC8DD7B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "red-black-tree", "red-black-tree\red-black-tree.csproj", "{946DCF88-4239-44AF-BF13-21F7CA0549B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "red-black-tree", "red-black-tree\red-black-tree.csproj", "{946DCF88-4239-44AF-BF13-21F7CA0549B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fenwick_tree", "fenwick_tree\fenwick_tree.csproj", "{BF918F45-E65C-4401-992C-4D21DA4FF5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTree", "SegmentTree\SegmentTree.csproj", "{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "same_tree", "same_tree\same_tree.csproj", "{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "path_sum", "path_sum\path_sum.csproj", "{D94B0A91-17E8-4542-A299-9B6869FE9A31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{946DCF88-4239-44AF-BF13-21F7CA0549B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{946DCF88-4239-44AF-BF13-21F7CA0549B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{946DCF88-4239-44AF-BF13-21F7CA0549B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF918F45-E65C-4401-992C-4D21DA4FF5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF918F45-E65C-4401-992C-4D21DA4FF5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF918F45-E65C-4401-992C-4D21DA4FF5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF918F45-E65C-4401-992C-4D21DA4FF5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9688B99F-D484-43B3-9DA0-CAE7DCCFCA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1EB3A1-C4F8-401A-8E5C-6D911D30A7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94B0A91-17E8-4542-A299-9B6869FE9A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
