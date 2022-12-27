@@ -64,6 +64,15 @@ namespace fenwick_tree
             //Returns sum of arr[0..index]. This function assumes that the array is preprocessed
             //and partial sums of array elements are stored in bit_tree[].
 
+            /*
+             * for expression: i -= i & (-i); let i=7
+             * 7=(00111) 
+             * -7=(11001) -> {flip the bits and add 1 at the end}
+             * 
+             * therfore, 7& -7=(00001)
+             * 7-(00001)= (001100) = 6
+             */
+
             int s = 0;
 
             // index in bit_tree[] is 1 more than the index in arr[] 

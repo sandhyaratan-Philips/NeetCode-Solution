@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maximum-depth-or-height-of-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre", "lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre\lowest-common-ancestor-of-the-deepest-leaves-of-a-binary-tre.csproj", "{6CED3D5A-B23D-4942-9085-CBA98375AFB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "check-for-balanced-parentheses-in-an-expression", "check-for-balanced-parentheses-in-an-expression\check-for-balanced-parentheses-in-an-expression.csproj", "{A3FF93BB-EAB6-456F-B9C0-B2DBB5E767CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CED3D5A-B23D-4942-9085-CBA98375AFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FF93BB-EAB6-456F-B9C0-B2DBB5E767CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FF93BB-EAB6-456F-B9C0-B2DBB5E767CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FF93BB-EAB6-456F-B9C0-B2DBB5E767CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FF93BB-EAB6-456F-B9C0-B2DBB5E767CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
