@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PraticeLeetCode", "PraticeLeetCode\PraticeLeetCode.csproj", "{CC5AB15B-22C9-436E-9454-F68CC64F26C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gas-station", "gas-station\gas-station.csproj", "{F6C7A387-46AB-4F9F-A668-57C5FA4230DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "candy", "candy\candy.csproj", "{0AF43B89-CCBA-4CBF-8A91-79C3E67D039E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "same-tree", "same-tree\same-tree.csproj", "{8471CA9E-DCB9-44DE-BF61-4B672A7DD18D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "binary-tree-preorder-traversal", "binary-tree-preorder-traversal\binary-tree-preorder-traversal.csproj", "{EBA2F1AD-8943-4769-BDDC-D22996D86D6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maximum-ice-cream-bars", "maximum-ice-cream-bars\maximum-ice-cream-bars.csproj", "{69720608-582A-4993-82EE-CFF0E652886E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "max-points-on-a-line", "max-points-on-a-line\max-points-on-a-line.csproj", "{54D01B20-E1BD-4090-B472-5C0571953C81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "minimum-time-to-collect-all-apples-in-a-tree", "minimum-time-to-collect-all-apples-in-a-tree\minimum-time-to-collect-all-apples-in-a-tree.csproj", "{0D15E1E7-3733-40EC-9AD6-3EDCB5330AC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "number-of-nodes-in-the-sub-tree-with-the-same-label", "number-of-nodes-in-the-sub-tree-with-the-same-label\number-of-nodes-in-the-sub-tree-with-the-same-label.csproj", "{CD2FEC9F-7880-4576-9156-C3FB0CFE0743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longest-path-with-different-adjacent-characters", "longest-path-with-different-adjacent-characters\longest-path-with-different-adjacent-characters.csproj", "{F7FE6B8F-66E1-485F-A785-955989F4DD6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5AB15B-22C9-436E-9454-F68CC64F26C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5AB15B-22C9-436E-9454-F68CC64F26C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5AB15B-22C9-436E-9454-F68CC64F26C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5AB15B-22C9-436E-9454-F68CC64F26C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C7A387-46AB-4F9F-A668-57C5FA4230DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C7A387-46AB-4F9F-A668-57C5FA4230DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C7A387-46AB-4F9F-A668-57C5FA4230DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C7A387-46AB-4F9F-A668-57C5FA4230DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF43B89-CCBA-4CBF-8A91-79C3E67D039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF43B89-CCBA-4CBF-8A91-79C3E67D039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF43B89-CCBA-4CBF-8A91-79C3E67D039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF43B89-CCBA-4CBF-8A91-79C3E67D039E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8471CA9E-DCB9-44DE-BF61-4B672A7DD18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8471CA9E-DCB9-44DE-BF61-4B672A7DD18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8471CA9E-DCB9-44DE-BF61-4B672A7DD18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8471CA9E-DCB9-44DE-BF61-4B672A7DD18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA2F1AD-8943-4769-BDDC-D22996D86D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA2F1AD-8943-4769-BDDC-D22996D86D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA2F1AD-8943-4769-BDDC-D22996D86D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA2F1AD-8943-4769-BDDC-D22996D86D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69720608-582A-4993-82EE-CFF0E652886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69720608-582A-4993-82EE-CFF0E652886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69720608-582A-4993-82EE-CFF0E652886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69720608-582A-4993-82EE-CFF0E652886E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D01B20-E1BD-4090-B472-5C0571953C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D01B20-E1BD-4090-B472-5C0571953C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D01B20-E1BD-4090-B472-5C0571953C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D01B20-E1BD-4090-B472-5C0571953C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D15E1E7-3733-40EC-9AD6-3EDCB5330AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D15E1E7-3733-40EC-9AD6-3EDCB5330AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D15E1E7-3733-40EC-9AD6-3EDCB5330AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D15E1E7-3733-40EC-9AD6-3EDCB5330AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2FEC9F-7880-4576-9156-C3FB0CFE0743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2FEC9F-7880-4576-9156-C3FB0CFE0743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2FEC9F-7880-4576-9156-C3FB0CFE0743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2FEC9F-7880-4576-9156-C3FB0CFE0743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FE6B8F-66E1-485F-A785-955989F4DD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FE6B8F-66E1-485F-A785-955989F4DD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FE6B8F-66E1-485F-A785-955989F4DD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FE6B8F-66E1-485F-A785-955989F4DD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9411AC1C-374A-40F1-A5B3-5EDBCEF912EF}
+	EndGlobalSection
+EndGlobal
