@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "invert-binary-tree", "invert-binary-tree\invert-binary-tree.csproj", "{79335F1B-7AE0-452F-BCA3-A6A31FB37E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "invert-binary-tree", "invert-binary-tree\invert-binary-tree.csproj", "{79335F1B-7AE0-452F-BCA3-A6A31FB37E63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{54FC6976-235C-4EA1-AA77-3E3E9B42CCFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helper", "Helper\Helper.csproj", "{54FC6976-235C-4EA1-AA77-3E3E9B42CCFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maximum-depth-of-binary-tree", "maximum-depth-of-binary-tree\maximum-depth-of-binary-tree.csproj", "{03CB449F-C2F9-45C4-B566-5E08BDE4377A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "diameter-of-binary-tree", "diameter-of-binary-tree\diameter-of-binary-tree.csproj", "{1A008EAA-96F2-4008-AEA0-3B09D74E535C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "balanced-binary-tree", "balanced-binary-tree\balanced-binary-tree.csproj", "{1F680BEC-F1FA-41FB-BA6C-1B828DAA1D5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "same-tree", "same-tree\same-tree.csproj", "{9AC5EACA-AAD1-4B12-B1E5-430A3CC3DCF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subtree-of-another-tree", "subtree-of-another-tree\subtree-of-another-tree.csproj", "{9F0C0BE9-401C-48B7-A89F-BF677090DC9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{54FC6976-235C-4EA1-AA77-3E3E9B42CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FC6976-235C-4EA1-AA77-3E3E9B42CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FC6976-235C-4EA1-AA77-3E3E9B42CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CB449F-C2F9-45C4-B566-5E08BDE4377A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CB449F-C2F9-45C4-B566-5E08BDE4377A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CB449F-C2F9-45C4-B566-5E08BDE4377A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CB449F-C2F9-45C4-B566-5E08BDE4377A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A008EAA-96F2-4008-AEA0-3B09D74E535C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A008EAA-96F2-4008-AEA0-3B09D74E535C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A008EAA-96F2-4008-AEA0-3B09D74E535C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A008EAA-96F2-4008-AEA0-3B09D74E535C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F680BEC-F1FA-41FB-BA6C-1B828DAA1D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F680BEC-F1FA-41FB-BA6C-1B828DAA1D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F680BEC-F1FA-41FB-BA6C-1B828DAA1D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F680BEC-F1FA-41FB-BA6C-1B828DAA1D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC5EACA-AAD1-4B12-B1E5-430A3CC3DCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC5EACA-AAD1-4B12-B1E5-430A3CC3DCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC5EACA-AAD1-4B12-B1E5-430A3CC3DCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC5EACA-AAD1-4B12-B1E5-430A3CC3DCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0C0BE9-401C-48B7-A89F-BF677090DC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0C0BE9-401C-48B7-A89F-BF677090DC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0C0BE9-401C-48B7-A89F-BF677090DC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0C0BE9-401C-48B7-A89F-BF677090DC9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
