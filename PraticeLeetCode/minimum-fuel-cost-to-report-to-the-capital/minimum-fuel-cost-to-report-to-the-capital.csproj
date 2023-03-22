@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>minimum_fuel_cost_to_report_to_the_capital</RootNamespace>
+  </PropertyGroup>
+
+</Project>
